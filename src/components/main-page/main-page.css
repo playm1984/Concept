@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Museo500;
+    color: #172853;
+}
+
+.mainPage{
+    width: 1218px;
+    margin: 0 auto;
+}
+
+.category-p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.map-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itemShoes{
+    width: 278.69px;
+    height: 308.83px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px -4px 12px rgba(23, 40, 83, 0.04);
+    cursor: pointer;
+    margin: 0 33px 35px 0;
+}
+
+.itemShoes:nth-child(4n+4){
+    margin-right: 0;
+}
+
+.titleShoes{
+    color: #172853;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 10px 0 0 14px;
+}
+
+.shoesLink{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.shoesLink .link{
+    font-size: 12px;
+    color: #B0B3BC;
+    text-decoration: none;
+}
+
+.shoesLink a:hover{
+    color: #919399;
+}
+

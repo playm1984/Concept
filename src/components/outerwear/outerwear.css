@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.outer-wear{
+    width: 100%;
+}
+
+.outer-wear-main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bredcrumds{
+    font-size: 20px;
+    color: #172853;
+    text-align: center;
+}
+

@@ -1,0 +1,46 @@
+.footer{
+    width: 100%;
+    background: #ffffff;
+    margin: 90px 0 0 0;
+}
+
+.footer-main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100fr;
+}
+
+.footer_inner{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+.logo-footer{
+    font-size: 32px;
+    font-family: Museo700;
+    text-transform: uppercase;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.icon svg{
+    fill: #172853;
+}
+
+.icon svg:hover{
+    fill: #4376FB;
+}
+
+.icon:nth-child(2){
+    margin: 0 25px;
+}
+
+.phone{
+    font-size: 17px;
+    margin: 0;
+}

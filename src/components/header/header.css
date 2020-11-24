@@ -1,0 +1,96 @@
+.header{
+    width: 100%;
+    margin: 44px 0 68px 0;
+}
+
+.header-main{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-menu-btn a{ 
+    text-decoration: none;
+    margin-right: 73px;
+}
+
+.header-menu-btn a:nth-child(2){
+    margin-right: 0;
+}
+
+.header-menu-btn span:hover{
+    color: #172853;
+}
+
+.header-menu-btn span{
+    color:  #B0B3BC;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.logo{
+    font-size: 32px;
+    font-family: Museo700;
+    text-transform: uppercase;
+    margin-left: 120px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.searh-header{
+    position: relative;
+    margin-right: 67px;
+}
+
+.search-img{
+    border: none;
+    outline: none;
+    width: 17px;
+    height: 17px;
+    background: url(./search.svg);
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.search-input{
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #B0B3BC;
+    font-size: 16px;
+    padding: 11px;
+    padding-left: 36px;
+    font-family: Museo100;
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn{
+    font-size: 17px;
+    font-family: Museo500;
+    margin: 0;
+    margin-right: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.login-btn p{
+    margin: 0 17px 0 0;
+}
+
+.log{
+    width: 24px;
+    height: 24px;
+    background: url(./log.png);
+}

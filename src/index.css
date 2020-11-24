@@ -1,0 +1,26 @@
+@font-face{
+  font-family: Museo100;
+  src: url(./assets/Museo-Sans-Cyr/MuseoSansCyrl.otf)
+}
+
+@font-face{
+  font-family: Museo500;
+  src: url(./assets/Museo-Sans-Cyr/MuseoSansCyrl_1.otf);
+}
+
+@font-face{
+  font-family: Museo700;
+  src: url(./assets/Museo-Sans-Cyr/MuseoSansCyrl_2.otf);
+}
+
+body {
+  margin: 0;
+}
+
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  background: #F8F8FB;
+}
